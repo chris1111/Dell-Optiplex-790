@@ -27,7 +27,6 @@ Components:
 - View full Video ⬇︎
 
 
-- Usage:[UEFI Post Install OpenCore]()
 
 
 
