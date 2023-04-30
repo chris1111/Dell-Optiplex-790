@@ -22,7 +22,7 @@ Whats work:
 - Nework
 - USB Port (All)
 - Wifi with a compatible module
-- Bluetooth a compatible module or USB dongle
+- Bluetooth with a compatible module or USB dongle
 - Sleep/Wake
 
 ![Optiplex790](https://user-images.githubusercontent.com/6248794/235299263-34097b04-dd34-4c29-bfc4-0a85a97ff218.png)
