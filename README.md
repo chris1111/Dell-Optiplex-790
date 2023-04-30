@@ -1,6 +1,7 @@
 # Dell-Optiplex-790
 ## Support macOS Catalina to macOS Ventura
-
+------------------------------------------------
+### Read Page ➥ [Support macOS Ventura](https://github.com/chris1111/Dell-Optiplex-790/blob/Master/Support%20macOS%20Ventura.md)
 ![boot](https://user-images.githubusercontent.com/6248794/235354729-a7bc2de3-8fb0-48cc-8dbc-9bb7f97063af.png)
 
 
