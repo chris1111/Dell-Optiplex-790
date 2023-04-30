@@ -14,9 +14,10 @@
 
 Components:
 - Dell Optiplex 790 (SFF), CPU i5 2500k
-- Graphics card, Geforce GT 710 
+- Graphics card, [Asus Geforce GT 710](https://www.asus.com/ca-en/motherboards-components/graphics-cards/asus/gt710-sl-1gd5/)
 
-![Optiplex790](https://user-images.githubusercontent.com/6248794/235299263-34097b04-dd34-4c29-bfc4-0a85a97ff218.png)![asus-gt-710-evo-2g](https://user-images.githubusercontent.com/6248794/235299268-f63b92a3-c411-4e26-bc34-8c37e702d17b.png)
+![Optiplex790](https://user-images.githubusercontent.com/6248794/235299263-34097b04-dd34-4c29-bfc4-0a85a97ff218.png)
+![asus-gt-710-evo-2g](https://user-images.githubusercontent.com/6248794/235299268-f63b92a3-c411-4e26-bc34-8c37e702d17b.png)
 
 
 - Build by [chris1111](https://github.com/chris1111/)
