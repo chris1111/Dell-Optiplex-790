@@ -25,8 +25,8 @@ Whats work:
 - Bluetooth with a compatible module or USB dongle
 - Sleep/Wake
 
-![Optiplex790](https://user-images.githubusercontent.com/6248794/235299263-34097b04-dd34-4c29-bfc4-0a85a97ff218.png)
-![asus-gt-710-evo-2g](https://user-images.githubusercontent.com/6248794/235299268-f63b92a3-c411-4e26-bc34-8c37e702d17b.png)
+![Opti790](https://user-images.githubusercontent.com/6248794/235375367-d6a87fa9-22b3-425e-921a-9147cd7f05e8.png)
+
 
 
 - Build by [chris1111](https://github.com/chris1111/)
