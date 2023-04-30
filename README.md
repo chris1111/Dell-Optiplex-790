@@ -10,6 +10,8 @@
 - many other PC Sandy Bridge microarchitecture at least
 - For Legacy install/Post Install
 
+### Download Release V1 ➤ [DELL Optiplex 790](https://github.com/chris1111/Dell-Optiplex-790/releases/V1)
+
 Components:
 - Dell Optiplex 790 (SFF), CPU i5 2500k
 - Graphics card, Geforce GT 710 
@@ -23,8 +25,4 @@ Components:
 - Credit: [Moraea Team](https://github.com/moraea/non-metal-frameworks)
 
 
-
-### Download V1 ➤ [DELL Optiplex 790]()
-
-- View full Video ⬇︎
 
