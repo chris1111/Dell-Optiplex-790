@@ -31,3 +31,10 @@ Update Done
 ![update done](https://user-images.githubusercontent.com/6248794/235368236-ad5b09f0-edcb-4127-801e-1a5deef98c62.png)
 
 
+#### Do not update macOS Security Response ⬇︎
+- You cannot do macOS Security Response updates on Ivy bridge system with OCLP
+- You must uncheck this update that's all
+
+![Security Responses](https://user-images.githubusercontent.com/6248794/236442492-d4b34515-93b0-49c0-8598-ec4e5117e704.png)
+
+
