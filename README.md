@@ -11,7 +11,7 @@
 - many other PC Sandy Bridge microarchitecture at least
 - For Legacy install/Post Install
 
-### Download Release V1 ➤ [DELL Optiplex 790](https://github.com/chris1111/Dell-Optiplex-790/releases/V1)
+### Download Release V2 ➤ [DELL Optiplex 790](https://github.com/chris1111/Dell-Optiplex-790/releases/V2)
 
 Components:
 - Dell Optiplex 790 (SFF), CPU i5 2500k
