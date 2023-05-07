@@ -1,6 +1,6 @@
 # Dell-Optiplex-790
 ## Support macOS Catalina to macOS Ventura
-- Latest Update 05 May 2023 Lock nvram.plist
+- Latest Update 07 May 2023 Create nvram.plist
 ------------------------------------------------
 ### Read Page ➥ [Support macOS Ventura](https://github.com/chris1111/Dell-Optiplex-790/blob/Master/Support%20macOS%20Ventura.md)
 ![boot](https://user-images.githubusercontent.com/6248794/235354729-a7bc2de3-8fb0-48cc-8dbc-9bb7f97063af.png)
