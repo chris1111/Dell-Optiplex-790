@@ -8,6 +8,9 @@ Support macOS Ventura
 #### Video-2 Post Install ⬇︎ Video from Camera PC
 - Command disabled Gatekeeper:  `sudo spctl --master-disable`
 - make sur to choose the EFI partition disk number coresponding to the macOS Ventura APFS contener for installing OpenCore Duet
+- ```NEW```  Interface GUI OCLP Simply click to ```Post-Install Root Patch```
+
+![Post Root patch](https://github.com/chris1111/HP-Probook-EliteBook-Package-Creator-OC/assets/6248794/dc1935d6-c422-4051-b7ab-8c9d32c54fbe)
 
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/218287389-96444e32-0bf1-4886-9632-ccd2e1f3614d.png)](https://www.youtube.com/watch?v=0EJ95rkP834)
 
