@@ -1,8 +1,8 @@
 # Dell-Optiplex-790
-## Support macOS Catalina to macOS Ventura
-### Latest Update 10 May 2023 HaltLevel ➤ 2147483650 
-- Update OpenCore 0.9.3 REL-093-2023-05-10
-- Add option Create NVRAM
+## Support macOS Catalina to macOS Sonoma
+### Latest Update 13 August 2023 Add support macOS Sonoma 14
+- Update OCLP 0.6.9 available downloads
+- Add Flavours-Free themes
 -------------------------------------------------
 ### Read Page ➥ [Support macOS Ventura](https://github.com/chris1111/Dell-Optiplex-790/blob/Master/Support%20macOS%20Ventura.md)
 ![boot](https://user-images.githubusercontent.com/6248794/235354729-a7bc2de3-8fb0-48cc-8dbc-9bb7f97063af.png)
