@@ -1,8 +1,4 @@
-Latest Update 13 August 2023 Add support macOS Sonoma 14
-
-![Screenshot 2023-08-13 at 20 37 48](https://github.com/chris1111/Dell-Optiplex-790/assets/6248794/1aa4c2c5-c9b4-479c-84a5-a3d8a72de07f)
-
-
+Latest Update 13 August 2023 [Add support macOS Sonoma 14](https://github.com/chris1111/Dell-Optiplex-790/releases/tag/V3)
 
 Support macOS Ventura
 
