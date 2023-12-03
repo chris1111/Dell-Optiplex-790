@@ -11,7 +11,7 @@
 - many other PC Sandy Bridge microarchitecture at least
 - For Legacy install/Post Install
 
-### Download Release V3 ➤ [DELL Optiplex 790](https://github.com/chris1111/Dell-Optiplex-790/releases/V3) support macOS Sonoma 14
+### Download Release V4 ➤ [DELL Optiplex 790](https://github.com/chris1111/Dell-Optiplex-790/releases/V4) support macOS Sonoma 14
 
 Components:
 - Dell Optiplex 790 (SFF), CPU i5 2500k
