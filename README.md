@@ -32,6 +32,7 @@ Whats work:
 
 - Build by [chris1111](https://github.com/chris1111/)
 - Credit: [OpenCore Team](https://github.com/acidanthera/OpenCorePkg)
+- Credit: [LogoutHook OpenCore Team](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/LogoutHook)
 - Credit: [OCLP Team](https://github.com/dortania/OpenCore-Legacy-Patcher/)
 - Credit: [Moraea Team](https://github.com/moraea/non-metal-frameworks)
 
