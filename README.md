@@ -1,7 +1,7 @@
 # Dell-Optiplex-790
 ## Support macOS Catalina to macOS Sonoma
-#### Latest Update 17 Feb 2024 OpenCore 0.9.9
-- Update 03 Feb 2024 Added Option 2 Post OC-Legacy Duet LogoutHook to use only on macOS System Disk.
+### Latest Update 07 April 2024
+- No need to rename the disk anymore. The user will have to confirm their choices.
 -------------------------------------------------
 ### Read Page ➥ [Support macOS Ventura](https://github.com/chris1111/Dell-Optiplex-790/blob/Master/Support%20macOS%20Ventura.md)
 ![boot](https://user-images.githubusercontent.com/6248794/235354729-a7bc2de3-8fb0-48cc-8dbc-9bb7f97063af.png)
