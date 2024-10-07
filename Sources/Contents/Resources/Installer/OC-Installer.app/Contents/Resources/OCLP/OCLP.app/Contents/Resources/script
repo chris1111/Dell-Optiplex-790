@@ -1,0 +1,76 @@
+#!/bin/sh
+
+#Vars
+apptitle="Download-OCLP"
+version="1.0"
+sleep 1
+rm -rf /Private/tmp/OpenCore-Patcher.pkg.zip
+rm -rf /$HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg.zip
+rm -rf /$HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg
+mkdir -p /$HOME/Downloads/Download-OCLP
+#Dialog Text
+read -r -d '' applescriptCode <<'EOF'
+   set dialogText to text returned of (display dialog "
+Type the release number of OCLP you whant to use, the default selection is Nightly Build.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The lowest you can start is ---> 0.6.2
+The OCLP Nightly Build is available.
+It will be downloaded in the directory Downloads/Download-OCLP
+
+Choose a release number then click Continue
+
+Exit Script by the Shutdown button
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" default answer "Nightly" with icon 2 buttons {"Continue"} default button "Continue")return dialogText
+EOF
+
+dialogText=$(osascript -e "$applescriptCode");
+echo " "
+echo Your choice is OpenCore-Legacy-Patcher $dialogText;
+echo " "
+echo "Download ---> OpenCore-Legacy-Patcher $dialogText"
+if [ "$dialogText" == "Nightly" ] ; then
+  echo "Download ---> OpenCore-Legacy-Patcher Nightly Build"
+  curl -L https://nightly.link/dortania/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/main/OpenCore-Patcher.pkg.zip -o /Private/tmp/OpenCore-Patcher.pkg.zip
+Sleep 1
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/OpenCore-Patcher.pkg.zip /$HOME/Downloads/Download-OCLP
+sleep 1
+rm -rf /Private/tmp/OpenCore-Patcher.pkg.zip
+# Unzip if the app exist
+if [ -f "$HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg.zip" ]; then
+     unzip $HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg.zip -d $HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg
+Sleep 1
+rm -rf /$HOME/Downloads/Download-OCLP/OpenCore-Patcher.pkg.zip
+echo " "
+echo "Download ---> OpenCore-Legacy-Patcher $dialogText Completed!"
+Sleep 1
+Open /$HOME/Downloads/Download-OCLP
+ osascript -e 'display notification "Program close" with title "'"$apptitle"'" subtitle "Download Completed" sound name "default"'
+osascript <<EOD
+  tell application "OCLP"
+      activate
+  end tell
+EOD
+rm -rf /Private/tmp/OpenCore-Patcher.pkg.zip
+Sleep 3
+echo "QUITAPP"
+fi
+
+fi
+curl -L https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/$dialogText/OpenCore-Patcher-GUI.app.zip -o /Private/tmp/OpenCore-Patcher-GUI.app.zip
+Sleep 1
+ditto -x -k --sequesterRsrc --rsrc /Private/tmp/OpenCore-Patcher-GUI.app.zip /$HOME/Downloads/Download-OCLP
+sleep 1
+rm -rf /Private/tmp/OpenCore-Patcher-GUI.app.zip
+echo " "
+echo "Download ---> OpenCore-Legacy-Patcher $dialogText Completed!"
+Sleep 1
+Open /$HOME/Downloads/Download-OCLP
+ osascript -e 'display notification "Programme ferme" with title "'"$apptitle"'" subtitle "Download Completé" sound name "default"'
+osascript <<EOD
+  tell application "OCLP"
+      activate
+  end tell
+EOD
+Sleep 3
+echo "QUITAPP"
+
