@@ -1,5 +1,5 @@
 # Dell-Optiplex-790
-## Support macOS Catalina to macOS Sonoma
+## Support macOS Catalina to macOS Sequoia
 ### Latest Update 06 Oct 2024 OpenCore 1.0.2 
 - REL-102-2024-10-05
 --------------------------------------------------
