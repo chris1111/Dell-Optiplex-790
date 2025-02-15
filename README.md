@@ -1,4 +1,7 @@
 # Dell-Optiplex-790
+
+[![pages-build-deployment](https://github.com/chris1111/Dell-Optiplex-790/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Dell-Optiplex-790/actions/workflows/pages/pages-build-deployment)
+
 ## Support macOS Catalina to macOS Sequoia
 ### Latest Update 06 Oct 2024 OpenCore 1.0.2 
 - REL-102-2024-10-05
