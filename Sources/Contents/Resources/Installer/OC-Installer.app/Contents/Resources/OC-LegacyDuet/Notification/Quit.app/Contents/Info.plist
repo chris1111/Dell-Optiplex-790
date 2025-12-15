@@ -10,6 +10,8 @@
 	<string>applet</string>
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
+	<key>CFBundleIconName</key>
+	<string>applet</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.ScriptEditor.id.Quit</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -51,6 +53,8 @@
 	<string>This script needs access to Siri to run.</string>
 	<key>NSSystemAdministrationUsageDescription</key>
 	<string>This script needs access to administer this system to run.</string>
+	<key>OSAAppletShowStartupScreen</key>
+	<false/>
 	<key>WindowState</key>
 	<dict>
 		<key>bundleDividerCollapsed</key>
@@ -66,9 +70,9 @@
 		<key>positionOfDivider</key>
 		<real>289</real>
 		<key>savedFrame</key>
-		<string>579 295 700 672 0 0 1920 1057 </string>
+		<string>365 111 700 663 0 0 1920 1050 </string>
 		<key>selectedTab</key>
-		<string>result</string>
+		<string>description</string>
 	</dict>
 </dict>
 </plist>
