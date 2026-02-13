@@ -2,6 +2,8 @@
 
 [![pages-build-deployment](https://github.com/chris1111/Dell-Optiplex-790/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/chris1111/Dell-Optiplex-790/actions/workflows/pages/pages-build-deployment)
 
+<img src="https://hitscounter.dev/api/hit?url=https://github.com/chris1111&label=VISITORS&icon=gift&color=%23198754&message=&style=for-the-badge&tz=US%2FEastern">
+
 ## Support macOS Catalina to macOS Tahoe
 ### Latest Update 15 Dec 2025 OpenCore 1.0.7 
 - Preparing for Tahoe
